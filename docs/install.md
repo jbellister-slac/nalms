@@ -6,7 +6,7 @@ The current NALMS iteration consists of the following Dockerhub hosted container
 
 
 ### tidacs/nalms-zookeeper
-* Zookeeper 3.5.9
+* Zookeeper 3.5.10
 
 ### tidacs/nalms-kafka
 * Kafka 2.8.1 configured with cruise-control metrics reporter
@@ -128,7 +128,7 @@ $ docker run \
 ### Zookeeper
 
 #### Configuration
-At present, Zookeeper is launched using the default settings. For more sophisticated deployments, a configuration with mounted configuration files would be preferable. The configuration file is mounted to the Zookeeper container at runtime. A description of the zookeeper configuration may be found [here](https://zookeeper.apache.org/doc/r3.5.9/zookeeperAdmin.html).
+At present, Zookeeper is launched using the default settings. For more sophisticated deployments, a configuration with mounted configuration files would be preferable. The configuration file is mounted to the Zookeeper container at runtime. A description of the zookeeper configuration may be found [here](https://zookeeper.apache.org/doc/r3.5.10/zookeeperAdmin.html).
 
 #### Docker
 The following command will run Zookeeper accessible on the host machine at port 2181:

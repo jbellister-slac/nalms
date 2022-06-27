@@ -3,7 +3,7 @@ FROM centos:7
 ENV JAVA_VERSION 11.0.12.0.7-0.el7_9.x86_64
 ENV JAVA_BASE java-11-openjdk
 ENV JAVA_HOME /usr/lib/jvm/${JAVA_BASE}-${JAVA_VERSION}
-ENV ZOOKEEPER_VERSION 3.5.9
+ENV ZOOKEEPER_VERSION 3.5.10
 
 #Download Zookeeper
 RUN  yum install -y wget openssh-server ${JAVA_BASE}-${JAVA_VERSION} && \
